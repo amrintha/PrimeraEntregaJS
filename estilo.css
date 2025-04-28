@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/Imagen-fondo.avif');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+justify-content: center;
+}
+
+.inscripcion-info {
+    margin-top: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+
+}
+
+.inscripcion-info h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.inscripcion-info p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
